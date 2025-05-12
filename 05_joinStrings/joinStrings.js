@@ -14,7 +14,7 @@ const lastName = Stevenson
 const birthYear = 1947
 const thisYear = 1965
 
-
+const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " (thisYear - birthYear) + " years old."
 
 
 
