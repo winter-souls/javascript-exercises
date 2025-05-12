@@ -9,8 +9,8 @@
 
 // Add your code right below, good luck!
 
-const firstName = Carlos
-const lastName = Stevenson
+const firstName = "Carlos"
+const lastName = "Stevenson"
 const birthYear = 1947
 const thisYear = 1965
 
