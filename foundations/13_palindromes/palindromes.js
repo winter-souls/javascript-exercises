@@ -8,6 +8,9 @@ const palindromes = function (string) {
     .split('') //split all characters into an array
     .filter((character) => alphanumerical.includes(character)) //filter array to only include characters/numbers
     .join(''); //join array back into a string
+
+    //Reverse the cleaned up string
+    const reversedString = cleanedString.split('').reverse().join('');
 };
 
 // Do not edit below this line
