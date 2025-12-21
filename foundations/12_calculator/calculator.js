@@ -22,8 +22,12 @@ const power = function(base, exponent) {
 	return base ** exponent;
 };
 
-const factorial = function() {
-	
+const factorial = function(num) {
+	let min = 1;
+  for (let i = 1; i <= num; i++) {
+    min *= i;
+  }
+  return min;
 };
 
 // Do not edit below this line
