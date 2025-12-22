@@ -6,6 +6,7 @@ const fibonacci = function(requestedNumber) {
     for (let i = 2; i <= requestedNumber; i++) {
         fibonacci[i] = fibonacci[i -1] + fibonacci[i-2];
     }
+    
     // Find the user-requested position in that array
     return fibonacci[requestedNumber];
 };
