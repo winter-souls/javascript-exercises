@@ -1,12 +1,20 @@
 const fibonacci = function(requestedNumber) {
     // Create an array of the fibonacci sequence
     let fibonacci = [0, 1];
+    let count;
+
+    // Check if requested number is an int; convert it to one if not
+    if (typeof requestedNumber !== 'number') {
+        count = parseInt(requestedNumber);
+    } else {
+        count = requestedNumber;
+    }
 
     // Loop through array, adding numbers in the sequence
     for (let i = 2; i <= requestedNumber; i++) {
         fibonacci[i] = fibonacci[i -1] + fibonacci[i-2];
     }
-    
+
     // Find the user-requested position in that array
     return fibonacci[requestedNumber];
 };
