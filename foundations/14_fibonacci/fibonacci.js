@@ -11,7 +11,7 @@ const fibonacci = function(requestedNumber) {
     }
 
     // Check if requested number is a 0 or negative
-    if (count < 0) return "Can't do negatives, sorry!";
+    if (count < 0) return "OOPS";
     if (count == 0) return 0;
 
     // Loop through array, adding numbers in the sequence
