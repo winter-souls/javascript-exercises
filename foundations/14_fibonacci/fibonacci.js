@@ -15,12 +15,12 @@ const fibonacci = function(requestedNumber) {
     if (count == 0) return 0;
 
     // Loop through array, adding numbers in the sequence
-    for (let i = 2; i <= requestedNumber; i++) {
+    for (let i = 2; i <= count; i++) {
         fibonacci[i] = fibonacci[i -1] + fibonacci[i-2];
     }
 
     // Find the user-requested position in that array
-    return fibonacci[requestedNumber];
+    return fibonacci[count];
 };
 
 // Do not edit below this line
